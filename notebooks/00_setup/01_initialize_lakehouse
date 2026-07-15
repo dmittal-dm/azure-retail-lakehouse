@@ -1,0 +1,17 @@
+PROJECT_NAME = "retail-lakehouse-demo"
+ENVIRONMENT = "dev"
+
+PREFERRED_CATALOG = "retail_lakehouse"
+
+SCHEMAS = [
+    "landing",
+    "bronze",
+    "silver",
+    "gold",
+    "audit",
+    "quarantine"
+]
+
+print(f"Project     : {PROJECT_NAME}")
+print(f"Environment : {ENVIRONMENT}")
+print(f"Catalog     : {PREFERRED_CATALOG}")
