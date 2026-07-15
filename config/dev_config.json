@@ -1,0 +1,18 @@
+{
+  "project_name": "retail-lakehouse-demo",
+  "environment": "dev",
+  "source_system": "retail_pos",
+  "catalog": "retail_lakehouse",
+  "schemas": {
+    "landing": "landing",
+    "bronze": "bronze",
+    "silver": "silver",
+    "gold": "gold",
+    "audit": "audit",
+    "quarantine": "quarantine"
+  },
+  "business": {
+    "currency": "INR",
+    "timezone": "Asia/Kolkata"
+  }
+}
